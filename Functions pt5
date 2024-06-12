@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int  hi(int a = 50){
+  cout<<"HI!"<<endl;
+  cout<<a;
+  return a;
+}
+int main(){
+hi(70);//local variabel
+}
